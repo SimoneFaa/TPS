@@ -14,7 +14,7 @@ int main()
 	for(int i=0;i<processCount;i++)
 	{
 		std::cout<<"Insert the Burst time of the P["<<(i+1)<<"]: "<<std::endl;
-	    std::cin>>burstTime[i];
+	        std::cin>>burstTime[i];
 	}
 	waitingTime[0]=0;
 	for(int i=1;i<processCount;i++)
